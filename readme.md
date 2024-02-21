@@ -42,8 +42,7 @@ A Django and Django-rest-framework based backend API.
 
  - Set up venv and install required dependencies.
  ```bash
- cd codemonk
-pip install -r requirements.txt
+ pip install -r requirements.txt
  ```
 
  - Run migrations
