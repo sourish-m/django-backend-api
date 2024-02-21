@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
     Send a post request (using POSTMAN or curl) to the above url with these fields in the body as shown below:
 
-    <screenshot>![Registration](image.png)
+    <screenshot>![Registration](image-6.png)
 
     A token will be returned:
 
