@@ -61,11 +61,11 @@ pip install -r requirements.txt
 
     Send a post request (using POSTMAN or curl) to the above url with these fields in the body as shown below:
 
-    <screenshot>
+    <screenshot>![Registration](image.png)
 
     A token will be returned:
 
-    <screenshot>
+    <screenshot>![Token](image-1.png)
 
     You can use this token for further authentication.
 
@@ -74,17 +74,17 @@ pip install -r requirements.txt
     This is the endpoint for paragraph input.
     First, authenticate using the token as shown below:
 
-    <screenshot>
+    <screenshot>![Token Authentication](image-2.png)
 
     Then send post request as JSON as shown below:
-    <screenshot>
+    <screenshot>![Sending text](image-3.png)
 
 3. http://127.0.0.1:8000/search/
 
-    Endpoint to search for a word. Add search word as parameter in POSTMAN like this:
+    Endpoint to search for a word. First authenticate using token as above. Add search word as parameter in POSTMAN like this:
 
-    <screenshot>
+    <screenshot>![search parameter](image-4.png)
 
-    The paragraph and its id will be output as shown below: (top 10 by word count)
-
+    The paragraph and its id will be output as shown below: (top 10 sorted by word count)
+    ![search result](image-5.png)
 
