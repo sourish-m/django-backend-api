@@ -25,7 +25,7 @@ A Django and Django-rest-framework based backend API.
 
 
 # Project Structure
-- api/ - This directory contains the main application logic.
+- codemonk-project/api/ - This directory contains the main application logic.
 - api/models.py - This file contains the data models for the application.
 - api/serializers.py - This file contains the serializers for the data models.
 - api/views.py - This file contains the views for the application.
