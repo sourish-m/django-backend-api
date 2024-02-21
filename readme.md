@@ -41,12 +41,13 @@ A Django and Django-rest-framework based backend API.
 # Installation:
 
  - Set up venv and install required dependencies.
- ```bash
+ ```shell
  pip install -r requirements.txt
  ```
 
- - Run migrations
+ - Navigate to project directory and run migrations.
  ```shell
+ cd codemonk-project
  python manage.py migrate
  ```
  - Start the Django server using the following command:
